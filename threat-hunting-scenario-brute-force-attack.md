@@ -149,20 +149,24 @@ DeviceLogonEvents
 
 ---
 
-## Documentation
+## Created By:
+- **Author Name**: Abraham Tsuma
+- **Author Contact**: https://www.linkedin.com/in/abraham-t-992ba810a
+- **Date**: June, 3, 2025
 
-**Created By:** [Your Name]  
-**Validated By:** [Validator Name]  
-**Creation Date:** [Date]
-
-## Revision History
-
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | [Date] | [Your Name] | Initial scenario creation documentation |
-| 1.1 | [Date] | [Your Name] | Added IOC table and related queries |
-| 1.2 | [Date] | [Your Name] | Enhanced safety considerations and validation steps |
+## Validated By:
+- **Reviewer Name**: 
+- **Reviewer Contact**: 
+- **Validation Date**: 
 
 ---
 
-**Note:** This scenario creation process is designed for educational and training purposes only. Always ensure proper authorization and implement appropriate security measures when exposing systems to the internet.
+## Additional Notes:
+- **None**
+
+---
+
+## Revision History:
+| **Version** | **Changes**                   | **Date**         | **Modified By**   |
+|-------------|-------------------------------|------------------|-------------------|
+| 1.0         | Initial draft                  | `June 3, 2025`  | `Abraham Tsuma`   
