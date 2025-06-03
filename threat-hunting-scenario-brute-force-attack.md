@@ -1,10 +1,8 @@
 # Brute Force Attack Scenario Creation
 
-<img width="200" src="https://github.com/user-attachments/assets/7724a75a-01f9-4f0e-9247-19ea30e355d4" alt="Hacker with laptop"/>
+**Possible Brute Force attack regarding internet facing machines**
 
-## Overview
 
-This document outlines the process used to create a realistic brute force attack scenario for threat hunting training purposes. The scenario generates authentic attack data by exposing a Windows VM to the internet and allowing automated attackers to discover and target the system.
 
 ## Steps to Create the Scenario
 
@@ -12,7 +10,6 @@ This document outlines the process used to create a realistic brute force attack
 - Created a Windows 10 VM in Microsoft Azure cloud environment
 - Named the VM "abe-mde-est" for identification purposes
 - Configured basic user account "labuser" with standard permissions
-- **Important:** Used strong passwords (NOT weak credentials like `labuser/Cyberlab123!`)
 
 ### Step 2: Microsoft Defender for Endpoint Onboarding
 - Downloaded MDE onboarding package from Microsoft 365 Defender portal
