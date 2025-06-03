@@ -1,4 +1,4 @@
-<img width="400" src="https://img.icons8.com/color/96/000000/hacker.png" alt="Brute Force Attack Icon with crosshair"/>
+<img width="450" src="https://github.com/user-attachments/assets/7724a75a-01f9-4f0e-9247-19ea30e355d4" alt="Hacker with laptop"/>
 
 # Threat Hunt Report: Brute Force Attack Investigation
 - [Scenario Creation](link-to-scenario-creation-page)
@@ -39,6 +39,7 @@ DeviceLogonEvents
 | summarize Attempts = count() by ActionType, RemoteIP, DeviceName
 | order by Attempts desc
 ```
+![Screenshot 2025-06-03 102559](https://github.com/user-attachments/assets/5546023c-ed24-498c-a2ac-962c249d229a)
 
 ---
 
@@ -113,6 +114,7 @@ DeviceLogonEvents
 | where AccountName == "labuser"
 | summarize LoginCount = count() by DeviceName, ActionType, AccountName, RemoteIP
 ```
+![Screenshot 2025-06-03 102655](https://github.com/user-attachments/assets/01fd5668-c765-48b3-a3b9-4423b9ada10b)
 
 ---
 
@@ -131,6 +133,8 @@ DeviceLogonEvents
 - **Target Accounts:** Various account names systematically attempted.
 - **Attack Pattern:** Password spraying and credential stuffing techniques observed.
 
+
+
 ### 3. Legitimate User Activity - Normal Authentication Patterns
 - **Timestamp:** Various timestamps throughout exposure period
 - **Event:** Legitimate successful logins detected for the "labuser" account from authorized IP addresses with no correlation to attacking IPs.
@@ -143,6 +147,7 @@ DeviceLogonEvents
 - **Event:** Cross-correlation analysis revealed complete failure of all brute force attempts with zero successful authentications from any attacking IP addresses.
 - **Action:** Brute force campaign confirmed as unsuccessful.
 - **Defense Effectiveness:** Strong password policies prevented breach despite sustained attack.
+
 
 ---
 
