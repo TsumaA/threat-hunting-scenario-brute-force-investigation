@@ -1,7 +1,7 @@
 <img width="450" src="https://github.com/user-attachments/assets/7724a75a-01f9-4f0e-9247-19ea30e355d4" alt="Hacker with laptop"/>
 
 # Threat Hunt Report: Brute Force Attack Investigation
-- [Scenario Creation](https://github.com/TsumaA/threat-hunting-scenario-brute-force-investigation/edit/main/threat-hunting-scenario-brute-force-attack.md)
+- [Scenario Creation](https://github.com/TsumaA/threat-hunting-scenario-brute-force-investigation/blob/main/threat-hunting-scenario-brute-force-attack.md)
 
 ## Platforms and Languages Leveraged
 - Windows 10 Virtual Machines (Microsoft Azure)
